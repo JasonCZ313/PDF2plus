@@ -1,0 +1,23 @@
+# PDF2plus — 启动入口 / Launch entry
+
+当前版本 / Version: V4.0.9
+
+## 中文
+
+请双击运行：
+
+    dist\package\PDF2plus.exe
+
+不要运行 dist 根目录下的其它临时 exe。
+完整说明见 README.md。
+未代码签名时，Windows 可能提示未知发布者，选「仍要运行」即可。
+
+## English
+
+Double-click:
+
+    dist\package\PDF2plus.exe
+
+Do not run other temporary exes under dist\.
+See README.md for full documentation.
+If SmartScreen warns about an unknown publisher, choose Run anyway.

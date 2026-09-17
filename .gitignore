@@ -1,0 +1,29 @@
+﻿# 构建中间产物（不提交）
+build/
+build_launcher/
+dist_launcher/
+artifacts/
+
+# dist 下只保留可直接运行的 package/；其余为重复或可再生成
+dist/PDF主程序/
+dist/app_payload.zip
+dist/启动器.exe
+
+# 编辑器与 Python 缓存
+.cursor/
+.pytest_cache/
+**/__pycache__/
+*.pyc
+
+# 运行期用户数据（仅仓库根目录；勿写成 data/ 以免误伤 package 内 cv2/data 等）
+/data/
+
+# 本地测试 / QA（不影响产品运行，不纳入仓库）
+qa_audit/
+qa_agent_output/
+qa_output/
+qa_launch/
+tests/
+test_output.txt
+**/*.assembling
+**/*.parts.json.assembled_ok
